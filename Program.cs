@@ -7,7 +7,7 @@ class Program
 {
     static async System.Threading.Tasks.Task Main(string[] args)
     {
-        Console.Write("Ingreel ID del post de Reddit: ");
+        Console.Write("Enter Reddit post ID: ");
         string postId = Console.ReadLine();
 
         // Configurar el cliente HTTP con el User-Agent adecuado
